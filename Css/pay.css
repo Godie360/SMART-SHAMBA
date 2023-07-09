@@ -1,0 +1,62 @@
+body {
+    margin: 0 0;
+    text-transform: capitalize;
+}
+
+.general {
+    display: flex;
+    justify-content: center;
+}
+
+.option {
+    padding-left: 50px;
+}
+
+.mobile,
+.account {
+    padding: 20px 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    padding: 1rem 1.6rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: rgb(43, 46, 38);
+    transition: .3s ease;
+}
+
+nav a:hover {
+    color: aquamarine;
+}
+
+.option {
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 800px;
+    max-height: 1500px;
+    /* list-style: none; */
+}
+
+li {
+    font-size: 1.5rem;
+}
+
+.photo {
+    display: flex;
+}
+
+.pic {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+
+.photo h2 {
+    margin-left: 20px;
+}

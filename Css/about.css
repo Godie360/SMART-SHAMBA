@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: myFont;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/Quicksand_Book.otf);
+}
+
+.socials {
+    padding-top: 7px;
+}
+
+.socials a img {
+    height: 20px;
+    width: 20px;
+}
+
+.socials a {
+    margin: 0px 5px;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar {
+    color: #ffffffe8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .t1 {
+    padding: 10px 5px;
+}
+
+.navbar ul {
+    font-size: 1.3rem;
+    margin: 15px 5px;
+}
+
+.navbar ul li {
+    margin: 10px;
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    padding: 15px 2px;
+}
+
+.navbar ul li a {
+    text-align: center;
+    color: #ffffffe8;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover,
+.navbar ul li .active {
+    color: orange;
+}
+
+header {
+    transition: 0.85s ease-in-out;
+}
+
+header.sticky {
+    transform: translateY(-50%);
+    padding: 10px 0px;
+    position: fixed;
+    width: 100%;
+    background: black;
+    z-index: 1;
+}
+
+.general {
+    background: url(../images/maize.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 70vh
+}
+
+.logo {
+    font-size: 1rem;
+}
+
+hr {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    margin: 10px 0px;
+    height: 2px;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+}
+
+.about {
+    color: #ffffffe8;
+    font-weight: 500;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 50%;
+    position: absolute;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.information {
+    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+    padding: 10px;
+}
+
+.one {
+    padding: 0px 10px;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.753);
+    height: 280px;
+    color: white;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    padding: 10px;
+}
+
+footer div h3 {
+    color: black;
+}
+
+footer div p {
+    padding: 3px 0px;
+}
+
+.last .search h3 {
+    padding-bottom: 5px;
+}
+
+.footersearch {
+    border: none;
+    outline: none;
+    height: 30px;
+}
+
+#b3 {
+    font-size: .9rem;
+    color: #000000;
+    text-align: center;
+    border: black solid 1.5px;
+    background: transparent;
+    outline: none;
+    width: 80px;
+    height: 30px;
+    transition: ease-out 0.4s;
+}
+
+#b3:hover {
+    background: black;
+    color: #ffffff;
+}
+
+.linearrangement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#line {
+    border: none;
+    width: 80%;
+    border-radius: 10px;
+    height: 1px;
+    background: white;
+}
+
+.l1 {
+    margin-top: 10px;
+    text-align: center;
+}
